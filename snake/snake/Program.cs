@@ -6,7 +6,13 @@ namespace snake
 	{
 		static void Main(string[] args)
 		{
-			Draw(1, 3, '*');
+			Point p = new Point();
+			p.x = 1;
+			p.y = 3;
+			p.sym = '*';
+
+			p.Draw();
+
 		}
 
 		static void Draw(int x, int y, char sym)
