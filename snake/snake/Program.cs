@@ -11,22 +11,8 @@ namespace snake
 
 			p.Draw();
 
-			List<int> numList = new List<int>();
-
-			numList.Add(0);
-			numList.Add(1);
-			numList.Add(2);
-
-			foreach (int i in numList)
-			{
-				Console.WriteLine(i);
-			}
-
-			numList.RemoveAt(0);
-
-			List<Point> pList = new List<Point>();
-
-			pList.Add(p);
+			HLine line = new HLine(1, 20, 3, '*');
+			line.Draw();
 
 		}
 
