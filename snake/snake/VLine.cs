@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace snake
 {
-	class HLine : Figure
+	class VLine : Figure
 	{
-
-		public HLine(int xLeft, int xRigth, int y, char sym)
+		public VLine(int yUp, int yDown, int x, char sym)
 		{
 			pList = new List<Point>();
 
-			for (int x = xLeft; x <= xRigth; x++)
+			for (int y = yUp; y <= yDown; y++)
 			{
 				pList.Add(new Point(x, y, sym));
 			}
