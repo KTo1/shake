@@ -33,6 +33,12 @@ namespace snake
 			if (direction == Direction.DOWN) { y = y + offset; }
 		}
 
+		public void Clear()
+		{
+			sym = ' ';
+			Draw();
+		}
+
 		public void Draw()
 		{
 			Console.SetCursorPosition(x, y);
