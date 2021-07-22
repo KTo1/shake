@@ -14,7 +14,7 @@ namespace snake
 			Console.SetBufferSize(80, 25);
 
 			HLine upline = new HLine(0, 78, 0, '+');
-			HLine downline = new HLine(0, 78, 23, '+');
+			HLine downline = new HLine(0, 78, 24, '+');
 
 			upline.Draw();
 			downline.Draw();
@@ -30,16 +30,31 @@ namespace snake
 
 			snake.Draw();
 
+			FoodCreator foodCreator = new FoodCreator(80, 25, '#');
+			Point food = foodCreator.CreateFood();
+			food.Draw();
+
 			while (true)
 			{
+				if (snake.Eat(food))
+				{
+					food = foodCreator.CreateFood();
+					food.Draw();
+				}
+				else 
+				{
+					snake.Move();
+				}
+
+				Thread.Sleep(100);
+
 				if (Console.KeyAvailable)
 				{
 					ConsoleKeyInfo key = Console.ReadKey();
 					snake.HandleKey(key.Key);
 				}
 
-				Thread.Sleep(100);
-				snake.Move();
+
 			}
 		}
 	}
