@@ -1,0 +1,5 @@
+C:\Users\qwe\Desktop\project C#\snake\releases\snake.exe
+C:\Users\qwe\Desktop\project C#\snake\releases\snake.dll
+C:\Users\qwe\Desktop\project C#\snake\releases\snake.deps.json
+C:\Users\qwe\Desktop\project C#\snake\releases\snake.runtimeconfig.json
+C:\Users\qwe\Desktop\project C#\snake\releases\snake.pdb

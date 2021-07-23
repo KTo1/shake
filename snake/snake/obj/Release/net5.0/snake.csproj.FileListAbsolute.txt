@@ -1,0 +1,16 @@
+C:\Users\qwe\Desktop\project C#\snake\shake\snake\snake\bin\Release\net5.0\snake.exe
+C:\Users\qwe\Desktop\project C#\snake\shake\snake\snake\bin\Release\net5.0\snake.deps.json
+C:\Users\qwe\Desktop\project C#\snake\shake\snake\snake\bin\Release\net5.0\snake.runtimeconfig.json
+C:\Users\qwe\Desktop\project C#\snake\shake\snake\snake\bin\Release\net5.0\snake.runtimeconfig.dev.json
+C:\Users\qwe\Desktop\project C#\snake\shake\snake\snake\bin\Release\net5.0\snake.dll
+C:\Users\qwe\Desktop\project C#\snake\shake\snake\snake\bin\Release\net5.0\ref\snake.dll
+C:\Users\qwe\Desktop\project C#\snake\shake\snake\snake\bin\Release\net5.0\snake.pdb
+C:\Users\qwe\Desktop\project C#\snake\shake\snake\snake\obj\Release\net5.0\snake.csproj.AssemblyReference.cache
+C:\Users\qwe\Desktop\project C#\snake\shake\snake\snake\obj\Release\net5.0\snake.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qwe\Desktop\project C#\snake\shake\snake\snake\obj\Release\net5.0\snake.AssemblyInfoInputs.cache
+C:\Users\qwe\Desktop\project C#\snake\shake\snake\snake\obj\Release\net5.0\snake.AssemblyInfo.cs
+C:\Users\qwe\Desktop\project C#\snake\shake\snake\snake\obj\Release\net5.0\snake.csproj.CoreCompileInputs.cache
+C:\Users\qwe\Desktop\project C#\snake\shake\snake\snake\obj\Release\net5.0\snake.dll
+C:\Users\qwe\Desktop\project C#\snake\shake\snake\snake\obj\Release\net5.0\ref\snake.dll
+C:\Users\qwe\Desktop\project C#\snake\shake\snake\snake\obj\Release\net5.0\snake.pdb
+C:\Users\qwe\Desktop\project C#\snake\shake\snake\snake\obj\Release\net5.0\snake.genruntimeconfig.cache
