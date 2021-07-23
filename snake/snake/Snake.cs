@@ -45,6 +45,18 @@ namespace snake
 			return next;
 		}
 
+		public bool IsHitTail()
+		{
+			Point head = GetNextPoint();
+
+			foreach (var p in pList)
+			{
+				if (p.IsHit(head)) { return true; };
+			}
+
+			return false;
+		}
+
 		public void HandleKey(ConsoleKey key)
 		{
 			if (key == ConsoleKey.LeftArrow) { direction = Direction.LEFT; };
